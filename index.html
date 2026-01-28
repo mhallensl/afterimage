@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Afterimage</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="wrap">
+    <h1>Afterimage</h1>
+    <p class="subtitle">Portfolio für Fotografie & Film</p>
+    <nav class="nav">
+      <a href="./">Start</a>
+      <a href="projects/">Projekte</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <h2>Über mich</h2>
+      <p>Ich bin Arzt und Softwareentwickler. Auf dieser Seite sind ausgewählte Foto- und Filmprojekte zusammengestellt.</p>
+      <div class="links">
+        <a class="btn" href="#" target="_blank" rel="noopener">YouTube</a>
+        <a class="btn" href="#" target="_blank" rel="noopener">Vimeo</a>
+        <a class="btn" href="mailto:DEINE-EMAIL@beispiel.de">Kontakt</a>
+      </div>
+      <p class="hint">Links oben können später ersetzt werden. Videos bleiben extern → kostenlos & schnell.</p>
+    </section>
+
+    <section class="card">
+      <h2>Auswahl</h2>
+      <p>Eine Übersicht der bisherigen Arbeiten ist unter „Projekte“ zu finden.</p>
+      <a class="btn primary" href="projects/">Zu den Projekten</a>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>© <span id="y"></span> Afterimage</p>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
